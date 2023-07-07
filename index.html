@@ -8,6 +8,28 @@
 
 </head>
 <body>
-    
+    <header>
+        <h1>Task List</h1>
+        <form id="tk-form">
+            <input type="text" id="new-task" placeholder="What's your plan?">
+            <input type="submit" id="btn" value="Add Task">
+        </form>
+    </header>
+    <main>
+        <section class="task-list">
+            <h2>Tasks</h2>
+            <div id="tasks">
+                <div class="content">
+                    <input type="text" class="text" value="My task" readonly>
+                </div>
+                <div class="actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
 </body>
 </html>

@@ -1,0 +1,18 @@
+:root{
+    --dark: #374151;
+    --darker: #1F2937;
+    --light: #EEE;
+    --gray: #6B7280;
+    --pink: #EC4899;
+    --purple: #8B5Cf6;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Fira sans', sans-serif;
+}
+
+body{
+    
+}
