@@ -145,6 +145,8 @@ window.addEventListener('load', () => {
 
     function updateTask(newTask, taskElement) {
         const taskContentEl = taskElement.querySelector(".text");
+        const index = Array.from(list_el.children).indexOf(taskElement);
+        tasks[index] = newTask;
         taskContentEl.value = newTask;
     }
 });
