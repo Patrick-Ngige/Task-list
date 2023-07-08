@@ -98,7 +98,7 @@ main {
     margin-bottom: 1rem;
 }
 
-#tasks {
+#tasks .task{
     display: flex;
     justify-content: space-between;
     background-color: var(--darker);
